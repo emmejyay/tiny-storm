@@ -1,0 +1,16 @@
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+
+// Define fonts for body and headers
+$body-font: "Work Sans", "Helvetica", "sans-serif";
+$headers-font: "Nunito", "Helvetica", "sans-serif";
+
+// To use a font file (.woff) uncomment following lines
+@font-face {
+  font-family: "TAN-MIGNON";
+  src: font-url('app/assets/stylesheets/components/config/fonts/TAN-MIGNON.otf');
+  src: font-url('app/assets/stylesheets/components/config/fonts/TAN-MIGNON.otf?#iefix') format('embedded-opentype'),
+       font-url('app/assets/stylesheets/components/config/fonts/TAN-MIGNON.woff') format('woff'),
+       font-url('app/assets/stylesheets/components/config/fonts/TAN-MIGNON.ttf') format('truetype')
+}
+$my-font: "TAN-MIGNON";
