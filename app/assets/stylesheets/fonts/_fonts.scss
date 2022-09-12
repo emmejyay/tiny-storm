@@ -8,10 +8,10 @@ $headers-font: "TAN-MIGNON", "Nunito", "Helvetica", "sans-serif";
 // To use a font file (.woff) uncomment following lines
 @font-face {
   font-family: "TAN-MIGNON";
-  src: font-url('fonts/tan_mignon/TAN-MIGNON.eot');
-  src: font-url('fonts/tan_mignon/TAN-MIGNON.eot?#iefix') format('embedded-opentype'),
-       font-url('fonts/tan_mignon/TAN-MIGNON.woff') format('woff'),
-       font-url('fonts/tan_mignon/TAN-MIGNON.woff2') format('woff2'),
-       font-url('fonts/tan_mignon/TAN-MIGNON.ttf') format('truetype')
+  src: font-url('tan_mignon/TAN-MIGNON.eot');
+  src: font-url('tan_mignon/TAN-MIGNON.eot') format('embedded-opentype'),
+       font-url('tan_mignon/TAN-MIGNON.woff') format('woff'),
+       font-url('tan_mignon/TAN-MIGNON.woff2') format('woff2'),
+       font-url('tan_mignon/TAN-MIGNON.ttf') format('truetype')
 }
 $my-font: "TAN-MIGNON";
