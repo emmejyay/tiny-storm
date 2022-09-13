@@ -1,14 +1,16 @@
 body {
   font-family: "TAN-MIGNON";
-  background-color: #004E64;
+  background-color: #193F3A;
 }
 
 
 .coming-soon-container {
   height: 100vh;
-  width: 100vw;
-  color:#F8F4E3;
-  font-size: 88px;
-  text-align: center;
-  vertical-align: middle
+
+  p {
+    color: #F8F4E3;
+    font-size: 88px;
+    text-align: center;
+    vertical-align: middle
+  }
 }
