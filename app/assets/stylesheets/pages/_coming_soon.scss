@@ -1,8 +1,13 @@
 body {
   font-family: "TAN-MIGNON";
-  background-color: #193F3A;
+  background-color: #72ABA3;
+  color: #193F3A;
+
 }
 
+a {
+  color: #3F766F;
+}
 
 .coming-soon-container {
   height: 100vh;
@@ -13,4 +18,15 @@ body {
     text-align: center;
     vertical-align: middle
   }
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+  z-index: 1;
 }
